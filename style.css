@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(235, 235, 229);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+
+}
+.unit {
+    min-width: 50px;
+    min-height: 50px;
+    background-color: red;
+    border-style: solid;
+}
+
+.restart {
+    width:100px;
+    height:50px;
+}
